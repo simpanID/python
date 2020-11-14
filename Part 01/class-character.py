@@ -11,7 +11,7 @@ class Character():
         power_spesial = self.power * count
         return power_spesial
 
-character_pertama = Character('Son Goku',89,100)
+character_pertama = Character('Son Goku',95,100)
 print(character_pertama.info())
 
 total_spesial = character_pertama.spesial(3)
