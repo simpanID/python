@@ -13,5 +13,6 @@ class Character():
 
 character_pertama = Character('Son Goku',89,100)
 print(character_pertama.info())
+
 total_spesial = character_pertama.spesial(3)
 print('Power Spesial : '+str(total_spesial))
