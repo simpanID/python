@@ -11,10 +11,9 @@ class Character():
     def spesial(self,count):
         total_spesial = self.power * count
         boss = 250
-        final = boss - total_spesial
         if total_spesial < 250:
-            print('Character ini akan kalah, karena power anda kurang : '+str(final))
+            print('Character ini akan kalah, karena power anda kurang : '+str(boss-total_spesial))
         else:
-            print('Character ini akan menang')
+            print('Character ini akan menang dan sisa power anda adalah :'+str(total_spesial-boss))
         return total_spesial
      
