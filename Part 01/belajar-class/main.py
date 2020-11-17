@@ -17,6 +17,6 @@ select = int(input('pilih character anda : '))
 selected_item = characters[select]
 
 print('Anda memilih :'+str(selected_item.name))
-plus_spesial = int(input('Tambahkan [1-3] Power Spesial Character : '))
+plus_spesial = int(input('Tambahkan [1-3] Attack Spesial Character : '))
 spesial_character = character.spesial(plus_spesial)
 print('Power yang berhasil ditambahkan sebesar :'+str(spesial_character))
